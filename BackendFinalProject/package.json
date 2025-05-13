@@ -1,0 +1,28 @@
+{
+  "name": "backendfinalproject",
+  "version": "1.0.0",
+  "description": "Appliation mean articles patisserie ",
+  "keywords": [
+    "mongodb",
+    "express",
+    "nodejs",
+    "cors",
+    "crud"
+  ],
+  "license": "MIT",
+  "author": "EyaZantour",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.14.1",
+    "nodemon": "^3.1.10",
+    "slugify": "^1.6.6"
+  }
+}
