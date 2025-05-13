@@ -1,0 +1,25 @@
+<form [formGroup]="formArticle" (ngSubmit)="submit()">
+  <div class="form-group">
+    <label for="nomArt">Nom de l'article</label>
+    <input id="nomArt" formControlName="nomArt" class="form-control" type="text">
+  </div>
+
+  <div class="form-group">
+    <label for="description">Description</label>
+    <input id="description" formControlName="description" class="form-control" type="text">
+  </div>
+
+  <div class="form-group">
+    <label for="image">Lien de l'image</label> 
+    <input id="image" formControlName="image" class="form-control" type="text">
+  </div>
+
+  <div class="form-group">
+    <label for="prix">Prix</label> 
+    <input id="prix" formControlName="prix" class="form-control" type="number" step="0.01">
+  </div>
+
+  <div class="form-group mt-3">
+    <button type="submit" class="btn btn-outline-success">Ajouter l'article</button>
+  </div>
+</form>

@@ -1,0 +1,10 @@
+<h2>Détails de l'article</h2>
+<p><strong>Nom:</strong> {{ article?.nomArt }}</p>
+<p><strong>Description:</strong> {{ article?.description }}</p>
+<p><strong>Image:</strong></p>
+<img [src]="article?.image" alt="Article image" style="max-width: 300px;">
+<p><strong>Prix:</strong> {{ article?.prix }}</p>
+
+<hr>
+<button class="btn btn-warning" (click)="goToEdit()">Modifier</button>
+<button class="btn btn-danger" (click)="deleteArticle()">Supprimer</button>
