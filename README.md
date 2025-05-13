@@ -96,7 +96,7 @@ ng serve
 
 ## 📄 License
 
-MIT License – see the [LICENSE](LICENSE) file for details.
+MIT License
 
 ```
 
